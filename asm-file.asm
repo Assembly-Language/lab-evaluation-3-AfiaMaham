@@ -28,7 +28,7 @@ asmfunc PROC p1:PTR DWORD, p2:DWORD, p3: PTR DWORD
 
     
     
-    mov edx, offset msg       ; prints message
+    mov edx, offset msg       ; print message
     call writestring
     call crlf
     
